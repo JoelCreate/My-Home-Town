@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: #fefae0;
+}
+
+h1 {
+   font-family: 'Paytone One', sans-serif;
+   color: #283618; 
+}
+
+h2, h3, h4, h5, h6, p, a {
+    font-family: 'Varela Round', sans-serif;
+    color: #606c38;
+}
+#hero-text {
+    margin-top: 125px;    
+}
+
+.slogan {
+    color: #fefae0;
+    letter-spacing: 1px;
+    line-height: 25px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    background: #dda15e;
+    border-radius: 20px 0px 20px 0px;
+}
+
+#hero {
+    background: url('images/Rancho.jpg') no-repeat top center;
+    background-size: cover;
+    width: 100vw;
+    height: 400px;   
+}
+
+#activities-section {
+    padding: 10px 10px 25px 10px;
+}
+
+#activity-container {
+   display: flex;
+}
+
+.activity-card{
+    padding: 0px 15px;  
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    outline: 3px solid #bc6c25;
+    border: 2px solid #fefae0;
+    border-radius: 50% 50%;
+    margin: 0 auto;
+}
+
+.activity-img:hover {
+     filter: grayscale(100%);
+}
+
+#hike-img {
+    background: url('https://californiathroughmylens.com/wp-content/uploads/2017/05/sapphire-new.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#wine-img {
+    background: url('https://www.dailybulletin.com/wp-content/uploads/2021/08/IDB-L-REGINA-0805-01TP.jpg?') no-repeat center center;
+    background-size: cover;
+}
+
+#shop-img {
+    background: url('https://www.victoriagardensie.com/content/dam/rw-2/images/mall-images/exteriors/seo-homepage-images/victoria-gardens-SEO.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#testimonials {
+    height: 375px;
+    background: #606c38;
+    color: #fefae0;
+}
+
+#testimonial-card {
+    background: #fefae0;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-style: italic;
+    box-shadow: 4px 4px 0px #283618;
+}
+
+#stars{
+    font-style: normal;
+}
+
+#footer {
+    background: #283618;
+    padding: 10px;
+}
